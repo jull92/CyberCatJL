@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CyberCat Creator</title>
+</head>
+<body>
+    <div id="mainPage">
+        <div id="title">
+            <h1>CyberCat Creator - Your very own digital cat</h1>
+        </div>
+        <div id="petBox">
+            <div id="nameOfPet">
+                <h2>Name your pet</h2>
+                <input type="text" name="petName" id="petName">
+                <button type="button" id="createPet">Create your Cat</button>
+            </div>
+            <div id="petPic">
+                <img src="./catto.gif" alt="kitto katto" title="meow">
+            </div>
+            <div id="petStats">
+                <div class="stat">
+                    <h2>Hunger</h2>
+                    <h3 id="hungerLevel">50</h3>
+                    <button id="hungerButton">Feed the catto</button>
+                </div>
+                <div class="stat">
+                    <h2>Thirst</h2>
+                    <h3 id="thirstLevel">50</h3>
+                    <button id="thirstButton">Give water to the catto</button>
+                </div>
+                <div class="stat">
+                    <h2>Entertainment</h2>
+                    <h3 id="playLevel">50</h3>
+                    <button id="playButton">Play with the catto</button>
+                </div>
+                <div class="stat">
+                    <h2>Affection</h2>
+                    <h3 id="petLevel">50</h3>
+                    <button id="petButton">Pet the catto</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <h4>Julia L | CodeNation project</h4>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

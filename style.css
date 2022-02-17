@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+#mainPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Shizuru', cursive;
+    font-weight: bold;
+    font-size: large;
+}
+
+#title {
+    width: 99%;
+    height: 30%;
+    text-align: center;
+}
+#petBox {
+    width: 99%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nameOfPet {
+    height: 10%;
+    width: 99%;
+    text-align: center;
+}
+
+#nameOfPet input {
+    font-family: 'Shizuru', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#createPet {
+    font-family: 'Shizuru', cursive;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#petPic {
+    width: 100%;
+}
+#petStats {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+#petStats button {
+    font-family: 'Shizuru', cursive;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 70px;
+    font-size: 24px;
+}
+.stat {
+    width: 25%;
+    height: 40%;
+}
+
+#footer {
+    width: 99%;
+    height: 10%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
